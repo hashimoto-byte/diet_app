@@ -1,0 +1,23 @@
+{
+  "pkg": "diet_app",
+  "globalName": "DietAppDS",
+  "shape": "package",
+  "buildCmd": "npm run build:lib",
+  "cssEntry": "src/diet-app.css",
+  "componentSrcMap": {
+    "Nav": "src/components/Nav.jsx",
+    "MealCard": "src/components/menu/MealCard.jsx",
+    "DaySection": "src/components/menu/DaySection.jsx",
+    "UnitSelector": "src/components/menu/UnitSelector.jsx",
+    "MenuOptions": "src/components/menu/MenuOptions.jsx",
+    "FavoritesList": "src/components/menu/FavoritesList.jsx",
+    "CalorieResult": "src/components/profile/CalorieResult.jsx",
+    "ProfileForm": "src/components/profile/ProfileForm.jsx",
+    "ShoppingItem": "src/components/shopping/ShoppingItem.jsx",
+    "CategoryGroup": "src/components/shopping/CategoryGroup.jsx",
+    "AddItemInput": "src/components/shopping/AddItemInput.jsx",
+    "WeightInput": "src/components/weight/WeightInput.jsx",
+    "WeightChart": "src/components/weight/WeightChart.jsx",
+    "ProgressSummary": "src/components/weight/ProgressSummary.jsx"
+  }
+}
